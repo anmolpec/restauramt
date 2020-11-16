@@ -1,0 +1,67 @@
+html{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(109, 2, 37);
+    color: antiquewhite;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+#content{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: grid;    
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: "sidebar main";
+}
+.homepage{
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr;
+    color: ivory;
+}
+.heading{
+    font-size: xxx-large;
+}
+.introInfo{
+    font-size: x-large;
+    margin-top: 3%;
+}
+.sidebar{
+    height: 100%;
+    width: 100%;
+    font-size: xx-large;
+    background-color: rgb(255, 255, 255);
+    color: rgb(247, 174, 80);
+
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.sidebar>*:hover{
+    text-decoration: underline;
+    font-size: larger;
+}
+
+.about{
+    display: grid;
+    grid-row: 1fr 3fr;
+    height: 100%;
+    width: 100%;
+}
+
+.aboutContentContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: x-large;
+    padding-right: 2%;
+}
+
+.aboutImage{
+    margin:5% 5% 0 5%;
+}
